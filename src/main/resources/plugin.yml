@@ -1,0 +1,11 @@
+name: NickBook
+version: 1.0.1
+main: com.mikaeel.nickbook.NickBookPlugin
+commands:
+  nick:
+    description: Open nickname setup or reset your nickname
+    usage: /nick [reset]
+    aliases: [nickname]
+permissions:
+  nickbook.use:
+    default: true
